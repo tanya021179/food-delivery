@@ -1,0 +1,173 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+}
+.container {
+  max-width: 1278px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: #2c2c2c;
+  padding: 28px 0;
+  display: block;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+
+.main-btn {
+  border-radius: 30px;
+  min-width: 98px;
+  height: 32px;
+  background-color: #bbf330;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text-wrap {
+  min-width: 511px;
+}
+
+.hero-title {
+  font-style: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-discription {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.about {
+  padding-top: 113px;
+  padding-bottom: 134px;
+  background: #ffe550;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.about-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.about-wrap {
+  max-width: 573px;
+}
+
+.about-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+
+.about-item {
+  width: calc((100% - 67px) / 2);
+}
+
+.about-subtitle {
+  font-size: 18px;
+
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.about-discription {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.about-btn {
+  border: 2px solid #7eb101;
+  background-color: #fff;
+}
+
+.favorites {
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+
+.favorites-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.favorites-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.favorites-item {
+    width: calc((100% - 64px) / 3);
+}
